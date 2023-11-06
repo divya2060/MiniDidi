@@ -9,7 +9,7 @@ const Contact = () => {
       <h1>Email:suyashasingh01@gmail.com</h1>
       <h1>State:Uttar Pradesh</h1>
       <h1>City:Noida</h1>
-      <a href='https://www.facebook.com/suyasha.singh.35' target={'_blank'} className='d'>Facebook</a>
+      <a href='https://www.facebook.com/suyasha.singh.35' target={'_blank'} rel="noreferrer" className='d'>Facebook</a>
     </div>
     <div className='Contact-Footer'>
     <p>&copy; 2023 by Suyasha Singh</p>

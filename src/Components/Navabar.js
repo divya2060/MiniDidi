@@ -21,7 +21,7 @@ const Navabar = () => {
      <Link className='a' to='/contact'>Contact</Link>
       </nav>
       <div className='icon'>
-      <img src={icon} width='50' height='50' onClick={handle} />
+      <img src={icon} alt='icon' width='50' height='50' onClick={handle} />
       </div>
     </div>
   )

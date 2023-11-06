@@ -29,7 +29,7 @@ const Home = () => {
       <div className='intro'>
         <h2>My Resume</h2>
         <hr></hr>
-      <button><a href={CV} target={'_blank'}>Download CV</a></button>
+      <button><a href={CV} target={'_blank'} rel="noreferrer">Download CV</a></button>
       </div>
     </div>
     <div className='right'>

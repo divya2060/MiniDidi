@@ -1,0 +1,50 @@
+.Contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0em;
+    font-size: 1.5vw;
+    background-color:lightpink;
+    width: 100vw;
+    height: 90vh;
+    font-weight: lighter;
+}
+.Contact-Footer{
+    height: 10vh;
+    display: flex;
+    background-color:aliceblue;
+}
+.Contact-Footer p {
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+.d{
+    text-decoration: none;
+    font-size: 2vw;
+    transition: 0.5s;
+    margin-top: 10px;
+    color: blue;
+}
+.d:hover{
+    color: red;
+    font-size: 3vw;
+}
+@media (max-width:600px) {
+.Contact-container{
+    font-size: 1.5vh;
+    height: 90vh;
+}
+.d{
+    font-size: 2vh;
+}
+.d:hover{
+    color: blue;
+    font-size: 3vh;
+}
+.Contact-Footer p{
+    font-size: 1.4vh;
+}
+}
+    

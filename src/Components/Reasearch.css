@@ -1,0 +1,82 @@
+.Reasearch-container{
+    height: 200vh;
+    width: 100vw;
+}
+.R-First{
+height: 30%;
+width: 100%;
+background-color:lightskyblue;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.R-First h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.R-First p{
+    margin-top: 10px;
+}
+.R-First hr{
+    width: 2.5rem;
+    height: 3px;
+}
+.R-second hr{
+    width: 2.5rem;
+    height: 3px;
+}
+p a{
+    color: black;
+    transition: 0.4s;
+}
+p a:hover{
+    color:darkred;
+    font-size: 2vw;
+    text-decoration: double;
+}
+
+.R-second{
+height: 70%;
+width: 100%;
+background-color:lightcoral;
+}
+.R-second h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.R-second hr{
+    margin-left: 49%;
+}
+.Exp{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.Exp-left{
+width:50%;
+height:45%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.Exp-right{
+width: 50%;
+height: 45%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.Exp-right h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+@media (max-width:600px) {
+    .R-First p{
+        font-size: 2vh;
+    }
+    
+    
+}

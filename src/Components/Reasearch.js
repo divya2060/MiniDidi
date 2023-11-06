@@ -8,11 +8,11 @@ const Reasearch = () => {
       <div className='R-First'>
        <h1>Reasearch</h1>
        <hr></hr>
-       <p> <a href='https://www.linkedin.com/in/dr-suyasha-singh-isser-25609175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target={'_blank'}><span>“Art of Segregation: Navigating Patriarchy of Plato, Aristotle and Rousseau”</span></a></p>
+       <p> <a href='https://www.linkedin.com/in/dr-suyasha-singh-isser-25609175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target={'_blank'} rel="noreferrer"><span>“Art of Segregation: Navigating Patriarchy of Plato, Aristotle and Rousseau”</span></a></p>
        <br></br>
-       <p><a href='https://du-in.academia.edu/DrSuyashaSinghIsser' target={'_blank'}><span>University Of Delhi Academia.edu profile</span></a></p>
+       <p><a href='https://du-in.academia.edu/DrSuyashaSinghIsser' target={'_blank'} rel="noreferrer"><span>University Of Delhi Academia.edu profile</span></a></p>
        <br></br>
-       <p><a href='https://www.researchgate.net/profile/Suyasha-Singh' target={'_blank'}><span>Reasearch gate profile</span></a></p>
+       <p><a href='https://www.researchgate.net/profile/Suyasha-Singh' target={'_blank'} rel="noreferrer"><span>Reasearch gate profile</span></a></p>
       </div>
       <div className='R-second'>
         <h1>Experience</h1>
